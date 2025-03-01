@@ -1,0 +1,12 @@
+/*
+ Theme Name:   Hello Elementor Child
+ Theme URI:    http://harmeens.com/hello-elementor-child/
+ Description:  Hello Elementor Child Theme
+ Author:       Usman Ali 
+ Author URI:   http://harmeens.com
+ Template:     hello-elementor
+ Version:      1.0.0
+*/
+
+/* Import parent theme styles */
+@import url("../hello-elementor/style.css");

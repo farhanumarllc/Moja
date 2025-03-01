@@ -1,0 +1,228 @@
+@media only screen and (max-width: 1220px) {
+ .slider-nav {
+     width: 100% !important; 
+    margin: auto;
+    padding: 15px 0px 0px 0px;
+    display: block;
+    margin-top: 84px;
+    position: relative;
+    height: 100% !important;
+    z-index: 1;
+}
+}
+
+
+@media only screen and (max-width: 1024px) {
+ .flex-items-two {
+    display: flex;
+    column-gap: 78px;
+    flex-wrap: wrap;
+}
+.flex-item {
+    width: 100%;
+}
+.main-box-content {
+margin-top: 30px;
+}
+.featured-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.shipping-two-cols {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+.radio-wrapper-new {
+   
+  margin-bottom: 0 !important;
+}
+.purchase-content {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.middle-banner {
+    margin-top: 130px;
+    margin-bottom: 120px;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+ 
+.flex-box-card-column {
+    border: 3px solid #F5D492;
+    border-radius: 31px;
+    background: #FFF9E5;
+    width: calc(100%);
+}
+.slider-for .item img {
+    height: 400px;
+    object-fit: contain;
+    width: 100%;
+    object-position: center;
+}
+.slider-nav {
+     width: 100% !important; 
+    margin: auto;
+    padding: 15px 0px 0px 0px;
+    display: block;
+    margin-top: 44px;
+    position: relative;
+    height: 100% !important;
+    z-index: 1;
+}
+section.banner-section {
+    padding-top: 40px;
+}
+.heading-title h2 {
+    font-size: 28px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    color: #000000 !important;
+}
+.shipping-boxes h4 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12.5px;
+    justify-content: center;
+}
+.middle-banner {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.slider-for .item img {
+    height: 550px;
+    object-fit: contain;
+    width: 100%;
+    object-position: center;
+}
+
+.slick-arrows {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    flex-direction: row;
+    top: 50%;
+    width: 100% !important;
+    z-index: 10;
+    display:none !important;
+}
+.slider-nav .item {
+    min-width: 60px;
+    min-height: 116px;
+    object-fit: contain;
+    padding: 10px;
+}
+.my-slider-main-two img {
+    min-width: 39px;
+    min-height: 80px !important;
+    max-height: 96px !important;
+    object-fit: contain;
+    margin: auto;
+}
+}
+
+@media only screen and (max-width: 460px) {
+ 
+.delivery-option {
+    width: calc(46%);
+}
+
+.delivery-options {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap: 15px;
+}.box-title h3 {
+    font-size: 24px !important;
+    color: #0C0C0C;
+    font-weight: 700;
+    margin-bottom: 14px;
+    font-family: 'Eurostile_Bold';
+}
+.woocommerce img, .woocommerce-page img {
+    height: auto;
+    max-width: 90%;
+}
+.shipping-two-cols {
+    display: flex;
+    gap: 10px;
+    margin-top: 36px;
+}
+.middle-banner {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.slick-arrows {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    flex-direction: row;
+    top: 50%;
+    width: 100% !important;
+    z-index: 10;
+}
+.slider-for .item img {
+    height: 380px;
+    object-fit: contain;
+    width: 100%;
+    object-position: center;
+    margin:auto;
+}
+.slider-nav {
+     width: 100% !important; 
+    margin: auto;
+    padding: 15px 0px 0px 0px;
+    display: block;
+    margin-top: 44px;
+    position: relative;
+    height: 100% !important;
+    z-index: 1;
+}
+section.banner-section {
+    padding-top: 40px;
+}
+.heading-title h2 {
+    font-size: 26px !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    color: #000000 !important;
+}
+.slider-nav .item {
+    min-width: 60px;
+    min-height: 97px;
+    object-fit: contain;
+    padding: 10px;
+}
+.my-slider-main-two img {
+    min-width: 39px;
+    min-height: 75px !important;
+    max-height: 75px !important;
+    object-fit: contain;
+    margin: auto;
+}
+.shipping-boxes h4 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12.5px;
+    justify-content: center;
+}
+
+.card-img {
+    max-height: 320px !important;
+    min-height: 320px !important;
+    height: 320px;
+}
+
+}

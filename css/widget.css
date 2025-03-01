@@ -1,0 +1,545 @@
+
+
+      
+ 
+.main-two-columns {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+    overflow: hidden;
+    padding: 99px 10px;
+}
+.main-content-tabs {
+    background-color: #FEF9F3;
+    overflow: hidden !important;
+    
+}
+
+.slider-flex-item-col {
+    width: 50%;
+    min-height: 800px;
+}
+
+
+.left-main-slider-content {
+    width: 88%;
+}
+.right-column-tabs-content {
+width: 12%;
+}
+.heading-tab4.slider-box-heading h3 {
+    text-transform: uppercase;
+}
+.auto-container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.slider-box-heading h2 {
+    font-weight: bold;
+    margin-bottom:30px;
+}
+
+.heading-tab1 h2 {
+    font-size: 110px;
+    color: #0C0C0C;
+   font-family: "Eurostile_Bold", Sans-serif;
+   
+
+}
+.heading-tab1 h3 {
+    font-size: 43px;
+    margin-top: -39px;
+    font-weight:700;
+    color: #0C0C0C;
+   font-family: "Eurostile_Bold", Sans-serif;
+
+}
+
+.inner-slider-two-columns {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+.heading-flex-item-col {
+    width: 50%;
+}
+.slider img {
+    width: 100%;
+}
+
+.heading-tab2,.heading-tab3,.heading-tab4,.heading-tab5{
+  position: relative;
+  text-align: center;
+  z-index: 5;
+}
+
+.heading-tab1,.heading-tab2 h2,.heading-tab3 h2,.heading-tab4 h2,.heading-tab5 h2{
+  font-size: 110px;
+  color: #0C0C0C;
+  font-family: 'Eurostile_Bold';
+}
+.heading-tab1,.heading-tab2 h3,.heading-tab3 h3,.heading-tab4 h3,.heading-tab5 h3{
+   font-size: 43px;
+    margin-top: -39px;
+    font-weight:700;
+    color: #0C0C0C;
+   font-family: 'Eurostile_Bold';
+}
+
+
+
+.heading-tab1{
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.btn-learn {
+    margin-top: 32px;
+}
+.btn-learn a {
+    font-size: 17px;
+    font-weight:100;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 14px 40px;
+    border-radius: 37px;
+    margin: 0 40px;
+    font-family: 'Eurostile_Bold';
+    transition: ease in 0.3s;
+}
+
+    .vertical-tabs {
+     width: 100%;
+     overflow: hidden;
+}
+
+.tabs-menu {
+  background: transparent !important;
+    border: none;
+}
+
+.tab-link {
+  padding: 15px;
+  cursor: pointer;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  transition: all 0.3s;
+}
+
+.tab-link:hover {
+  transform: scale(1.1);
+}
+
+.tab-link.active {
+transform: scale(1.2);
+}
+
+.tabs-content {
+  
+}
+
+/* .tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+} */
+.tab-link.active {
+    background: transparent !important;
+    border: none;
+}
+
+
+
+
+.bg-tab1 {
+  background-color: #FEF9F3;
+}
+
+.bg-tab2 {
+  background-color: #F5FFBF;
+}
+
+.bg-tab3 {
+  background-color: #FFE0DE;
+}
+
+.bg-tab4 {
+  background-color: #FFEBF1;
+}
+
+.bg-tab5 {
+  background-color: #FFBFC2;
+}
+
+
+
+
+
+
+
+
+.slider-for{
+	width: 264px;
+	height: 657px;
+	margin: 30px auto 1px;
+	overflow: hidden;
+	border-width: 15px;
+	border-radius: 10px;
+	
+}
+img{
+	width: 100%;
+	min-height: 100%;
+}
+.slider-nav{
+	width: 423px;
+	margin: auto;
+	padding: 15px 0px 0px 0px;
+	display: block !important;
+}
+.slider-nav .item {
+	margin: auto 17px;
+  margin-top: 35px;
+	border-width: 10px;
+	border-radius: 7px;
+  padding: 0;
+}
+
+.slider-nav .item img {
+    width: 82px;
+    height: 64px;
+    object-fit: contain;
+    background-color: #FFBFC2;
+    padding: 9px 16px;
+    border-radius: 9px;
+}
+.slider-nav .slick-track{
+	height: 93px;
+}
+.my-csutom-slider-nav .item{
+    min-width:66px !important;
+    min-height:74px !important;
+    border:none !important;
+}
+
+
+.slider-nav {
+    padding: 5px 63px;
+    
+}
+.slick-arrow{
+		position: absolute;
+    top: 50%;
+    z-index: 50;
+    margin-top: -12px;
+}
+.slick-prev{
+	left: 0px;
+}
+.slick-next{
+	right: 0;
+}
+
+ .slider-flex-item-col {
+width: 50%;
+}
+
+
+.slick-next:before, .slick-prev:before {
+    font-family: slick;
+    font-size: 0px !important;
+    line-height: 1;
+    opacity: .75;
+    color: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slider {
+    max-height: 850px;
+}
+.slick-track {
+    display: flex;
+}
+
+/*@keyframes fadeInUp {*/
+/*    from {*/
+/*        opacity: 0;*/
+/*        transform: translateY(20px);*/
+/*    }*/
+/*    to {*/
+/*        opacity: 1;*/
+/*        transform: translateY(0);*/
+/*    }*/
+/*}*/
+
+/* Hide inactive tabs but keep them initialized */
+.tab-content {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.3s ease-in-out;  /* Only transition opacity */
+}
+
+/* When the tab is active, show it with fade in up effect */
+.tab-content.active {
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
+
+
+.item.new-shape.slick-slide {
+    margin-bottom: -60px;
+}
+
+.item.new-shape.slick-slide.slick-current.slick-active {
+background:transparent !important;
+  margin-bottom: -60px;
+}
+
+.slider-for .item img {
+    max-height: 643px !important;
+    object-fit: contain;
+    min-height: 643px !important;
+    /* width: 100%; */
+    object-position: center;
+    background: transparent !important;
+    margin-bottom: -70px;
+}
+.slider-for .item  {
+    max-height: 643px !important;
+    object-fit: contain;
+    min-height: 643px;
+    /* width: 100%; */
+    object-position: center;
+    background: transparent !important;
+  
+}
+
+
+.bg-tab1 {
+  background-color: #FEF9F3;
+}
+
+.bg-tab2 {
+  background-color: #F5FFBF;
+}
+
+.bg-tab3 {
+  background-color: #FFE0DE;
+}
+
+.bg-tab4 {
+  background-color: #FFEBF1;
+}
+
+.bg-tab5 {
+  background-color: #FFBFC2;
+}
+
+
+
+  /* Correcting the class name consistency */
+  .slider1 {
+    position: relative;
+    z-index: 5;
+  }
+   .slider2,.slider3,.slider4,.slider5 {
+    position: relative;
+    z-index: 5;
+  }
+
+  /* Styling for the background image of each item */
+.slider1::after {
+    background-image: url('../img/shapes//thumb.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    top: -102px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.slider2::after {
+    background-image: url('../img/shapes//thumb2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    top: -102px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.slider3::after {
+    background-image: url('../img/shapes//thumb3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    top: -102px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.slider4::after {
+    background-image: url('../img/shapes//thumb4.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    top: -102px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.slider5::after {
+    background-image: url('../img/shapes/thumb5.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    top: -102px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+  /* Ensure the .slider-for and .slider-nav have proper sizing */
+  
+  /* Optionally, adjust the size of .slider-nav */
+  .slider-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+ .heading-tab1::after {
+                                                    content: '';
+                                                    background-image: url('../img/shapes/text-bg-shape-1.svg');
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: contain;
+                                                    width: 100%;
+                                                    height: 504px;
+                                                    position: absolute;
+                                                    left: 4px;
+                                                    z-index: -1 !important;
+                                                    top: -143px;
+                                                    }
+                                                     .heading-tab2::after {
+                                                    content: '';
+                                                    background-image: url('../img/shapes/text-bg-shape-2.svg');
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: contain;
+                                                    width: 100%;
+                                                    height: 504px;
+                                                    position: absolute;
+                                                    left: 4px;
+                                                    z-index: -1 !important;
+                                                    top: -143px;
+                                                    }
+                                                     .heading-tab3::after {
+                                                    content: '';
+                                                    background-image: url('../img/shapes/text-bg-shape-3.svg');
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: contain;
+                                                    width: 100%;
+                                                    height: 504px;
+                                                    position: absolute;
+                                                    left: 4px;
+                                                    z-index: -1 !important;
+                                                    top: -143px;
+                                                    }
+                                                     .heading-tab4::after {
+                                                    content: '';
+                                                    background-image: url('../img/shapes/text-bg-shape-4.svg');
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: contain;
+                                                    width: 100%;
+                                                    height: 504px;
+                                                    position: absolute;
+                                                    left: 4px;
+                                                    z-index: -1 !important;
+                                                    top: -143px;
+                                                    }
+                                                     .heading-tab5::after {
+                                                    content: '';
+                                                    background-image: url('../img/shapes/text-bg-shape-5.svg');
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: contain;
+                                                    width: 100%;
+                                                    height: 504px;
+                                                    position: absolute;
+                                                    left: 4px;
+                                                    z-index: -1 !important;
+                                                    top: -143px;
+                                                    }
+
+
+   .tabs-menu button[type=button]:focus,
+.tabs-menu button[type=button]:hover,
+.tabs-menu button[type=submit]:focus,
+.tabs-menu button[type=submit]:hover,
+.tabs-menu button:focus,
+.tabs-menu button:hover {
+    color: #fff;
+    background-color: transparent !important;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.btn-learn a:hover{
+    background:transparent;
+    border:1px solid black;
+    color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+

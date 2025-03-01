@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+  font-family: 'Eurostile_Bold';
+  src: url('/fonts/Eurostile_Bold.otf') format('woff2'); 
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Urbanist-Medium'; 
+  src: url('/fonts/Urbanist-Medium.ttf') format('woff2'); 
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Urbanist-Regular'; 
+  src: url('/fonts/Urbanist-Regular.ttf') format('woff2'); 
+  font-weight: 400;
+}
+.auto-container{
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: auto;
+}
+.content {
+    font-size: 18px;
+    color:#0C0C0C;
+    font-weight:500;
+}
+.basket-button button span{
+    display:flex;
+}
+.basket-button button {
+    font-size: 17px !important;
+    font-family: 'Eurostile_Bold';
+    color:#FFFFFF;
+}
+.radio-right span.price{
+     font-size: 25px;
+     color:#0C0C0C;
+     font-weight:700;
+     font-family: 'Eurostile_Bold';
+}
+.flex-items-two {
+    display: flex;
+    column-gap: 78px;
+}
+.featured-img img {
+    width: 100%;
+}
+.flex-item {
+    width: 50%;
+}
+
+.heading-title h2 {
+font-size: 56px; 
+font-weight: 700;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: 'Eurostile_Bold';
+}
+.content p {
+    font-size: 18px;
+    color: #0C0C0C;
+    font-family: 'Urbanist';
+}
+.purchase-content {
+    margin-top: 37px;
+}
+.dilevery-box {
+    margin-top: 32px;
+}
+
+
+
+
+.radio-wrapper-new {
+    cursor: pointer;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.radio-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.radio-input {
+  display: none;
+}
+
+.radio-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.radio-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Urbanist' !important;
+  color: #0C0C0C;
+}
+
+.subtitle {
+   font-size: 20px;
+  font-weight: 600;
+  font-family: 'Urbanist' !important;
+  color: #0C0C0C;
+}
+
+.radio-right {
+  text-align: right;
+}
+
+.radio-right span {
+  font-size:25px !important;
+  color:#0C0C0C !important;
+  font-family: 'Eurostile_Bold';
+}
+
+.price {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Urbanist-Medium';
+  color: #0C0C0C;
+}
+
+.radio-wrapper-new {
+  border: 3px solid #BBBBBB; 
+  background-color: #fff; 
+  border-radius: 12px;
+  padding-top: 23px !important;
+  padding-bottom: 26px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  transition: border-color 0.3s, background-color 0.3s;
+
+}
+.radio-input:checked ~ .radio-wrapper-new {
+  border: 2px solid #f3d7a3 !important;
+}
+.radio-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.radio-input {
+  display: none; /* Hide radio button */
+}
+
+
+/* .radio-input:checked ~ .radio-content {
+  background-color: #fff7e4; 
+  border: 2px solid #f3d7a3; 
+} */
+
+/* Default styles for delivery options */
+.delivery-options {
+  display: flex;
+  gap: 15px;
+}
+
+
+
+
+
+.delivery-option {
+  border: 2px solid #e0e0e0;
+  background-color: #fff;
+  border-radius: 10px;
+  /*padding: 20px;*/
+  text-align: center;
+  cursor: pointer;
+  width: 33.33%;
+}
+.delivery-title h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Urbanist-Medium';
+    color: #0C0C0C;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.delivery-option input[type="radio"] {
+  display: none; /* Hide the default radio button */
+}
+
+.delivery-option label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding:20px 20px 20px 20px;
+}
+
+.delivery-option .icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.delivery-option .text {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: 'Eurostile_Bold';
+  color: #0C0C0C;
+  cursor: pointer;
+}
+.radio-input:checked + .radio-content .delivery-option { border: 2px solid #f3d7a3; /* Change this to your desired border color */ }
+/* When a radio button is checked, change the background color and border */
+/* .delivery-option input[type="radio"]:checked + label {
+  background-color: #f3d7a3; 
+  border: 2px solid #f3d7a3; 
+} */
+
+.delivery-option input[type="radio"]:checked + label .text {
+  font-weight: bold;
+}
+
+
+/* Default border and background for radio wrappers */
+.radio-wrapper-new {
+  cursor: pointer;
+  border: 3px solid #BBBBBB !important;
+  background-color: #fff;
+  border-radius: 12px;
+  padding-top: 23px;
+  padding-bottom: 26px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: border-color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+.radio-wrapper-new-dev {
+  cursor: pointer;
+  border: 3px solid #BBBBBB !important;
+  background-color: #fff;
+  border-radius: 12px;
+  /*padding-top: 23px;*/
+  /*padding-bottom: 26px;*/
+  /*padding-left: 30px;*/
+  /*padding-right: 30px;*/
+  transition: border-color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+
+
+section.banner-section {
+    padding-top: 99px;
+}
+
+.banner {
+    text-align: center;
+    max-width: 100%;
+}
+
+.middle-banner{
+  margin-top: 214px;
+  margin-bottom: 140px;
+}
+.flex-column-six {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 31px;
+    row-gap: 29px;
+    margin-bottom:40px;
+}
+.flex-box-card-column {
+    border: 3px solid #F5D492;
+    border-radius: 31px;
+    background: #FFF9E5;
+    width: calc(50% - 16px);
+}
+.box-card-content {
+    padding: 50px 48px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+.box-title h3 {
+    font-size: 29px;
+    color: #0C0C0C;
+    font-weight:700;
+    margin-bottom: 14px;
+   font-family: 'Eurostile_Bold';
+}
+.content-box p {
+    font-size: 18px;
+    color: #0C0C0C;
+    font-family: 'Urbanist';
+}
+.flex-detail {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #0C0C0C;
+    font-family: 'Urbanist' !important;
+    margin-bottom:0px;
+}
+.detail-content:first-of-type {
+  padding-top: 0;
+}
+
+.detail-content {
+    border-bottom: 1px solid #707070;
+    padding-bottom: 8.87px;
+    padding-top: 8.87px;
+
+}
+
+.detail-box{
+  margin-bottom: 15px;
+}
+.brand-six-cols {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 41px;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand-logo-img a img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.brand-flex-column {
+ width: calc(33% - 16px);
+}
+
+.banner img {
+    width: 100% !important;
+}
+
+.slider-for{
+	
+	margin: 30px auto 1px;
+	overflow: hidden;
+	border-width: 15px;
+	border-radius: 10px;
+	
+}
+.slider-for .item img {
+  height: 627px;
+  object-fit: contain; /* یا cover */
+  width: 100%;
+  object-position: center; /* تصویر کو درمیان میں رکھنے کے لیے */
+}
+
+img{
+	width: 100%;
+	min-height: 100%;
+}
+.slider-nav{
+	width: 650px;
+	margin: auto;
+	padding: 0px 0px 0px 0px;
+	display: block;
+      margin-top: 84px;
+      position: relative;
+      height: 100% !important;
+      z-index: 1;
+}
+.slider-nav .item {
+	margin: auto 12px;
+	border: solid #707070;
+	border-width: 1px;
+	border-radius: 7px;
+  padding: 20px;
+}
+.slider-nav .item{
+ min-width: 122px;
+  min-height:346px;
+  object-fit: contain;
+}
+.my-slider-main-two img{
+  min-width: 122px;
+  min-height:302px;
+   max-height:302px;
+  object-fit: contain;
+}
+.slider-nav .slick-track{
+	height: 93px;
+}
+.slick-arrow{
+		position: absolute;
+    top: 50%;
+    z-index: 50;
+    margin-top: -12px;
+}
+.slick-prev{
+	left: 0px;
+}
+.slick-next{
+	right: 0;
+}
+.banner {
+    max-width: 1052px;
+    text-align: center;
+    margin: 0 auto;
+    /* max-width: 100%; */
+}
+
+.basket-button{
+  margin-top: 36px
+}
+
+
+.basket-button button {
+    display: flex;
+    justify-content: center;
+    column-gap: 31px;
+    font-size: 11px;
+    width: 100%;
+    /*align-items: center;*/
+    background: #000000;
+    border: 1px solid #E1E1E1;
+    padding: 16px 16.5px;
+    border-radius: 11px;
+    color: #fff;
+    font-family: 'Eurostile_Bold';
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.basket-button button:hover{
+  /* background: transparent; */
+  /* color:#000000 ; */
+}
+/* .basket-button:hover button svg{
+  color: #000;
+} */
+.basket-button button span img {
+    width: 25px;
+    height: 23px;
+    
+}
+.extra-margin{
+  margin-top: 20px;
+}
+.shipping-two-cols {
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+}
+.shipping-boxes
+{
+  padding: 27.5px 20px;
+  background-color: #000000;
+  border-radius: 13px;
+  width: 50%;
+  text-align: center;
+}
+.shipping-boxes h4 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12.5px;
+    justify-content: center;
+}
+.shipping-boxes h5 {
+    color: #fff;
+    font-size: 17px;
+}
+.shipping-boxes h4 span img {
+    max-width: 32px;
+    max-height: 23px;
+}
+
+.slick-arrows {
+  display: flex;
+  
+  justify-content: space-between;
+  position: absolute;
+  flex-direction: row-reverse;
+  top: 50%; /* Adjusts the vertical positioning of the arrows */
+  width: 100% !important; /* Ensures the arrows span the entire width */
+  z-index: 10; /* Keeps the arrows on top of the content */
+}
+
+.prev, .next {
+  width: 40px; /* Sets the width of the arrows */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.prev img, .next img {
+  width: 100%;
+  height: auto;
+}
+
+.slick-prev, .slick-next {
+  display: none; /* Hides the default Slick arrows if using custom ones */
+}
+
+.position {
+    position: relative;
+}
+button.slick-next.slick-arrow {
+    display: none !important;
+}
+button.slick-prev.slick-arrow {
+    display: none !important;
+}
+.prev.slick-arrow {
+    position: absolute;
+    left: 20px;
+}
+.next.slick-arrow {
+    right: 20px;
+}
+
+
+
+
+.single_add_to_cart_button_custom:focus {
+  
+  background:transparent !important;
+  border:3px solid #000 !important;
+  color: #000 !important;
+}
+
+  /* Focus state for the image inside the button */
+        .single_add_to_cart_button_custom:focus img {
+            filter: brightness(0) invert(0); /* Changes the image to black on focus */
+        }
+
+  .single_add_to_cart_button_custom:checked img {
+            filter: brightness(0) invert(0); /* Changes the image to black when checked */
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
